@@ -1,0 +1,37 @@
+{
+    "blocks": [
+        {
+            "src"     : "singleBlock.png",
+            "stages"  : 1,
+            "type"    : "breakable",
+            "density" : 10,
+            "friction": 0,
+            "restitution" : 0.2,
+            "width"   : 26,
+            "height"  : 8,
+            "angle"   : 0,
+            "pointValue" : 1,
+			"audioSrc": "blockHitSoft"
+        },
+        {
+            "src"     : "doubleBlock.png",
+            "stages"  : 2,
+            "type"    : "breakable",
+            "density" : 10,
+            "friction": 0,
+            "restitution" : 0.3,
+            "width"   : 26,
+            "height"  : 8,
+            "angle"   : 0,
+            "pointValue" : 4,
+			"audioSrc": "blockHitHard"
+        }
+    ],
+    "level": {
+        "map" : [1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0],
+        "x"   : 64,
+        "y"   : 120,
+		"backgroundImage" : "backgroundPaper.png",
+		"backgroundAudio" : "background"
+    }
+}

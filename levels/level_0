@@ -1,0 +1,24 @@
+{
+    "blocks": [
+        {
+            "src"     : "singleBlock.png",
+            "stages"  : 1,
+            "type"    : "breakable",
+            "density" : 10,
+            "friction": 0,
+            "restitution" : 0.2,
+            "width"   : 26,
+            "height"  : 8,
+            "angle"   : 0,
+            "pointValue" : 1,
+			"audioSrc": "blockHitSoft"
+        }
+    ],
+    "level": {
+        "map" : [0,0,0,0,0,0,0,0,0,0,0,0],
+        "x"   : 34,
+        "y"   : 30,
+		"backgroundImage" : "background.png",
+		"backgroundAudio" : "background"
+    }
+}

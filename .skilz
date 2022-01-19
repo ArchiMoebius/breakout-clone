@@ -1,0 +1,15 @@
+{
+  "branch": "master",
+  "description": "A clone of the classic breakout brick breaking game using the same physics engine as the original Angry Birds",
+  "title": "Breakout-Clone",
+  "links": [
+    {
+      "title": "Play",
+      "href": "https://archimoebius.github.io/breakout-clone/"
+    },
+    {
+      "title": "View Source",
+      "href": "https://github.com/ArchiMoebius/breakout-clone"
+    }
+  ]
+}
